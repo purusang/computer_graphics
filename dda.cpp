@@ -6,6 +6,8 @@ int main()
     int gd = DETECT ,gm, i;
     float x, y,dx,dy,steps;
     int x0, x1, y0, y1;
+    // initgraph function initializes the graphics system by loading a graphics driver from disk
+    // make sure to change the path according to your system.
     initgraph(&gd, &gm, "C:\\TC\\BGI");
     setbkcolor(WHITE);
     x0 = 4 , y0 = 200, x1 = 500, y1 = 5;
